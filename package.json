@@ -1,0 +1,19 @@
+{
+  "name": "react-guide-book",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "npx vuepress dev docs",
+    "build": "npx vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "vuepress": "^1.2.0"
+  }
+}
