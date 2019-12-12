@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "author": "",
+  "author": "helloforrestworld",
   "license": "ISC",
   "directories": {
     "doc": "docs"
@@ -11,9 +11,18 @@
   "scripts": {
     "dev": "npx vuepress dev docs",
     "build": "npx vuepress build docs",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:md": "lint-md *.md",
+    "lint:fix": "lint-md *.md --fix"
   },
   "devDependencies": {
-    "vuepress": "^1.2.0"
+    "vuepress": "^1.2.0",
+    "@vuepress/plugin-back-to-top": "^1.0.0-alpha.47",
+    "@vuepress/plugin-google-analytics": "^1.0.0-alpha.47",
+    "@vuepress/plugin-medium-zoom": "^1.0.0-alpha.47",
+    "lint-md": "^0.1.1",
+    "vuepress-plugin-baidu-autopush": "^1.0.1"
+  },
+  "dependencies": {
   }
 }
